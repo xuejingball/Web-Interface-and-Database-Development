@@ -1,0 +1,150 @@
+/*css style sheet*/
+
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+		width: 1400px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the content */
+.center_content {
+    background-color: #e6e6e6;
+    padding: 10px;
+    height: 1200px;
+		width: 1100px;
+}
+.center_left{
+width:900px;
+float:left;
+padding:0px 10px 10px 10px;
+}
+
+.button {
+	border-top:		2px solid #a3ceda;
+	border-left:		2px solid #a3ceda;
+	border-right:		2px solid #4f6267;
+	border-bottom:		2px solid #4f6267;
+	padding:		10px 20px !important;
+	font-size:		14px !important;
+	background-color:	#c4f1fe;
+	font-weight:		bold;
+	color:			#2d525d;
+}
+.query{
+float: left;
+width:800px;
+position: relative;
+padding:10px 10px 10px 10px;
+font-family: Consolas, monaco, monospace;
+color: black;
+}
+.query_msg{
+float: left;
+width: 800px;
+position: relative;
+padding:10px 10px 10px 10px;
+font-family: Consolas, monaco, monospace;
+font-size:10px;
+color: black;
+}
+
+.error{
+float: left;
+width:800px;
+height:auto;
+position: relative;
+padding:0px 0px 0px 0px;
+font-family: Consolas, monaco, monospace;
+}
+.error_msg{
+float: left;
+width: 800px;
+height:auto;
+position: relative;
+font-family: Consolas, monaco, monospace;
+font-weight:bold;
+font-size:12px;
+padding:10px 10px 10px 10px;
+color:black;
+}
+.profile_section{
+float:left;
+width:400px;
+border-bottom:1px #4d704d dashed;
+padding:10px 10px 10px 10px;
+}
+
+#main-wrapper{
+	width:500px;
+	margin:0 auto;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+	border:2px solid #273c75;
+}
+
+.logo{
+	width:130px;
+	text-align:center;
+	border-radius:50%;
+}
+
+.myform{
+	width:450px;
+	margin:0 auto;
+
+}
+
+.inputvalues{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+
+/* .button{
+	margin-top:5px;
+	background-color:#2f3640;
+	padding:5px;
+	color:yellow;
+	width:200px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+} */
+
+/* #back_button{
+	margin-top:5px;
+	margin-right:140px;
+	margin-bottom:10px;
+	background-color:#fbc531;
+	padding:5px;
+	color:black;
+	width:100px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+} */
